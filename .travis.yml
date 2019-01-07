@@ -10,6 +10,9 @@ env:
   - DJANGO_VERSION=1.6.11
   - DJANGO_VERSION=1.7.10
   - DJANGO_VERSION=1.8.5
+  - DJANGO_VERSION=1.11
+  - DJANGO_VERSION=2.0
+  - DJANGO_VERSION=2.1
 
 install:
    # This is a dependency of our Django test script
